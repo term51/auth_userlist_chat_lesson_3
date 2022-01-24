@@ -113,7 +113,7 @@ class _UserListPageState extends State<UserListPage> {
                   ),
                   onPressed: () {
                     Navigator.of(context).push<void>(UserFormPage.route());
-                  }, // TODO: push to user_form without data
+                  },
                   child: const Text(
                     'Add user data',
                     style: TextStyle(color: Colors.white),
