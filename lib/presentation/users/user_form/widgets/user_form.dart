@@ -105,7 +105,6 @@ class _UsernameInput extends StatelessWidget {
           initialValue: state.username.value,
           decoration: InputDecoration(
             labelText: 'User name',
-            helperText: '',
             errorText: state.username.invalid ? 'invalid username' : null,
           ),
         );
