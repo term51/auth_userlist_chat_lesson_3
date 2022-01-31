@@ -31,7 +31,7 @@ class ChatTemplate extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: const [
                   Text('Chat'),
-                  Text('Last seen date', style: TextStyle(fontSize: 14)), // TODO: add date
+                  Text('Last seen date', style: TextStyle(fontSize: 14)),
                 ],
               ),
             ],

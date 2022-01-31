@@ -1,5 +1,5 @@
 import 'package:auth_userlist_chat/presentation/auth/sign_in/sign_in_page.dart';
-import 'package:auth_userlist_chat/presentation/users/user_list/user_list_page.dart';
+import 'package:auth_userlist_chat/presentation/users/user_list/users_page.dart';
 import 'package:auth_userlist_chat/application/auth/auth_bloc.dart';
 import 'package:flutter/widgets.dart';
 

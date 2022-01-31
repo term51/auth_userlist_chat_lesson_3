@@ -73,10 +73,9 @@ class _PasswordInput extends StatelessWidget {
         return TextField(
           onChanged: (password) => context.read<SignInFormCubit>().passwordChanged(password),
           obscureText: true,
-          decoration: InputDecoration(
+          decoration: const InputDecoration(
             labelText: 'password',
             helperText: '',
-            errorText: state.password.invalid ? 'invalid password' : null,
           ),
         );
       },

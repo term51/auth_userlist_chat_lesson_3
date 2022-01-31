@@ -97,6 +97,7 @@ class _ChatScreenState extends State<ChatPage> {
                         ),
                       )
                     : null,
+                // BlocListener?
                 bottomSheet: SizedBox(
                   height: 50,
                   child: Row(

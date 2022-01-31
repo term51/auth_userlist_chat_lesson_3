@@ -1,6 +1,6 @@
-import 'package:auth_userlist_chat/domain/auth/confirmed_password.dart';
+import 'package:auth_userlist_chat/domain/auth/sign_up_form/confirmed_password.dart';
 import 'package:auth_userlist_chat/domain/auth/email.dart';
-import 'package:auth_userlist_chat/domain/auth/password.dart';
+import 'package:auth_userlist_chat/domain/auth/sign_up_form/password.dart';
 import 'package:auth_userlist_chat/infrastructure/auth/auth_repository.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
